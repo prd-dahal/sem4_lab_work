@@ -1,3 +1,4 @@
+#WAP to illustrate simple reflex agent
 #problem to solve to give the loan to the bank customer
 import sys
 

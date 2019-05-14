@@ -398,4 +398,16 @@ select * from products;
 
 desc products;
 
-select MAX(quantityInStock),productLine from products;
+select productName, productLine, productDescription,MAX(quantityInStock),productLine from products;
+-- question no 7
+show tables;
+select customerName,concat(contactFirstName,contactLastName),city,country from customers where city='Nantes' or city='Las Vegas' or city='Madrid';
+-- question no 8
+select  distinct productLine from products;
+-- question no 9
+select * from products;
+select sum(quantityInStock) from products where productLine='Motorcycles';
+-- question no 10
+desc orders;
+select * from orders;
+select orderNumber,orderDate,customerNumber from orders where status='In Process';
