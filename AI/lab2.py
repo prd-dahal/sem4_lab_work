@@ -28,7 +28,7 @@ def func2(x):
 			text.append(l[i])
 	return (''.join(text))
 
-a='caabcb'
+a='aabcbaaab'
 while(notInrule[0] in a or notInrule[1] in a or notInrule[2] in a):
 	a=func1(a)
 	a=func2(a)
