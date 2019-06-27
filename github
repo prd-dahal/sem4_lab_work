@@ -1,0 +1,4 @@
+first  step ( initialize the dir )---> git init 
+add all the files from that dir to push into repo ----> git add .
+then commit the changes made --> git commit -m "your message"
+the push -->git push 
