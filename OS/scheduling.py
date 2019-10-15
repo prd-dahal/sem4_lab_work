@@ -1,15 +1,26 @@
-class queue:
-	def __init__(self):
-		self.list=[]
-		self.front=0
-		self.rear=0
-	def push(x):
-		self.list.append(x)
-		self.rear=self.rear+1
-	def pop():
-		temp=self.list[self.front]
-		self.front=self.front+1
-	def display():
-		for i in range(self.front,self.rear):
-			print(self.list[i])
+def fcfs():
+	pid=[]
+	enterTime=[]
+	burstTime=[]
+	while(1):
+		temp=input("Enter the PID and enter quit when finished").lower()
+		if(temp=="quit"):
+			break
+		else:
+			pid.append(temp)
+	
+	while(1):
+		temp=input("Enter the Entry Time and quit when finished").lower()
+		if(temp=='quit'):
+			break
+		else:
+			enterTime.append(temp)
+	while(1):
+		temp=input("Enter the Burst Time and quit when finished").lower()
+		if(temp=='quit'):
+			break
+		else:
+			enterTime.append(temp)
+		
 
+	
